@@ -1,0 +1,7 @@
+class DiningPhilosophers {
+    private:
+    int num_philosophers;   // liczba filiozfów
+    vector<thread> philiosophers;   //wątki
+    vector<mutex> forks;   //reprezentacja widelcy
+    mutex output_mutex;          
+}
